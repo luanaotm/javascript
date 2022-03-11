@@ -22,4 +22,13 @@ console.log (novaOperacao)
 //NAN -> Not A Number (não é um número)
 
 const alura = "Alura"
-console.log(primeiroNumero/0)
+console.log(alura*primeiroNumero)
+
+
+var a = 10
+var b = 0
+console.log(a/b) // Infinity
+
+var a = 0
+var b = 0
+console.log(a/b) // NaN
